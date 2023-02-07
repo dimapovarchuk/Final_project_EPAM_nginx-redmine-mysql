@@ -3,6 +3,7 @@ provider "aws" {
     access_key = "......"
     secret_key = "......"
 }
+
 # MariaDB
 resource "aws_instance" "mysql_db" {
     ami = var.ami
